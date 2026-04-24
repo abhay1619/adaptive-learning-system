@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AdaptLearn - Intelligent Adaptive Learning Platform</title>
+    <link href="[cdn.jsdelivr.net](https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css)" rel="stylesheet">
+    <link href="[cdnjs.cloudflare.com](https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css)" rel="stylesheet">
+    <link href="[fonts.googleapis.com](https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap)" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body class="landing-page">
+    <!-- Navbar -->
+    <nav class="navbar-custom">
+        <div class="container">
+            <div class="d-flex justify-content-between align-items-center">
+                <a href="index.html" class="navbar-brand text-white text-decoration-none">
+                    <div class="logo-icon">🧠</div>
+                    <span class="gradient-text">AdaptLearn</span>
+                </a>
+                <div class="d-flex align-items-center gap-4">
+                    <a href="#features" class="nav-link d-none d-md-block">Features</a>
+                    <a href="#how-it-works" class="nav-link d-none d-md-block">How It Works</a>
+                    <a href="login.html" class="btn btn-secondary-glow">Sign In</a>
+                    <a href="register.html" class="btn btn-glow">Get Started</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 hero-content">
+                    <h1 class="hero-title">
+                        Learn Smarter with
+                        <span class="gradient-text">AI-Powered</span>
+                        Adaptive Learning
+                    </h1>
+                    <p class="hero-subtitle">
+                        Experience personalized education that adapts to your unique learning pace. 
+                        Our intelligent system dynamically adjusts difficulty levels to maximize 
+                        your engagement and retention.
+                    </p>
+                    <div class="d-flex gap-3 flex-wrap">
+                        <a href="register.html" class="btn btn-glow btn-lg">
+                            <i class="fas fa-rocket me-2"></i>Start Learning Free
+                        </a>
+                        <a href="#how-it-works" class="btn btn-outline-glow btn-lg">
+                            <i class="fas fa-play me-2"></i>Watch Demo
+                        </a>
+                    </div>
+                    <div class="d-flex gap-4 mt-4 text-secondary">
+                        <div><i class="fas fa-check text-success me-2"></i>No credit card required</div>
+                        <div><i class="fas fa-check text-success me-2"></i>Free forever plan</div>
+                    </div>
+                </div>
+                <div class="col-lg-6 hero-visual mt-5 mt-lg-0">
+                    <div class="hero-card position-relative">
+                        <div class="floating-element">
+                            <i class="fas fa-brain text-primary me-2"></i>
+                            <span>AI Adaptive</span>
+                        </div>
+                        <div class="floating-element">
+                            <i class="fas fa-chart-line text-success me-2"></i>
+                            <span>+85% Retention</span>
+                        </div>
+                        <div class="floating-element">
+                            <i class="fas fa-trophy text-warning me-2"></i>
+                            <span>Level Up!</span>
+                        </div>
+                        <div class="text-center position-relative" style="z-index: 2; padding: 3rem;">
+                            <div class="mb-4">
+                                <span class="difficulty-badge level-3">
+                                    <i class="fas fa-signal"></i> Level 3
+                                </span>
+                            </div>
+                            <h4 class="mb-3">Sample Question</h4>
+                            <p class="text-secondary mb-4">What is the derivative of x³?</p>
+                            <div class="d-grid gap-2" style="max-width: 300px; margin: 0 auto;">
+                                <div class="option-item" style="padding: 0.75rem 1rem;">
+                                    <span class="option-letter" style="width: 32px; height: 32px; font-size: 0.875rem;">A</span>
+                                    <span>3x</span>
+                                </div>
+                                <div class="option-item selected" style="padding: 0.75rem 1rem;">
+                                    <span class="option-letter" style="width: 32px; height: 32px; font-size: 0.875rem;">B</span>
+                                    <span>3x²</span>
+                                    <i class="fas fa-check text-success ms-auto"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-6 col-md-3">
+                    <div class="stat-item">
+                        <span class="stat-number" data-counter="10000">10,000+</span>
+                        <span class="stat-label">Active Learners</span>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="stat-item">
+                        <span class="stat-number" data-counter="500">500+</span>
+                        <span class="stat-label">Questions</span>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="stat-item">
+                        <span class="stat-number">85%</span>
+                        <span class="stat-label">Avg. Improvement</span>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="stat-item">
+                        <span class="stat-number">4.9</span>
+                        <span class="stat-label">User Rating</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features-section" id="features">
+        <div class="container">
+            <div class="section-title">
+                <h2 class="gradient-text">Why Choose AdaptLearn?</h2>
+                <p>Our platform combines cutting-edge AI with proven learning methodologies to create a truly personalized experience.</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-4">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-brain"></i>
+                        </div>
+                        <h4>Adaptive Difficulty</h4>
+                        <p>Our AI analyzes your performance in real-time and automatically adjusts question difficulty to keep you in the optimal learning zone.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <h4>Detailed Analytics</h4>
+                        <p>Track your progress with comprehensive analytics. Visualize your improvement across subjects and identify areas for growth.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-trophy"></i>
+                        </div>
+                        <h4>Gamified Learning</h4>
+                        <p>Earn points, maintain streaks, and compete on leaderboards. Learning has never been this engaging and fun!</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <h4>Smart Scheduling</h4>
+                        <p>Questions are strategically spaced to maximize retention using scientifically-proven spaced repetition techniques.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <h4>Multiple Subjects</h4>
+                        <p>From Mathematics to Programming, explore a wide range of subjects with expertly crafted questions at every level.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-lightbulb"></i>
+                        </div>
+                        <h4>Instant Feedback</h4>
+                        <p>Get immediate explanations for every question. Understand not just the what, but the why behind each answer.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works -->
+    <section class="features-section" id="how-it-works" style="background: var(--bg-glass); border-top: 1px solid var(--border-glass); border-bottom: 1px solid var(--border-glass);">
+        <div class="container">
+            <div class="section-title">
+                <h2 class="gradient-text">How It Works</h2>
+                <p>Get started in minutes and experience the future of personalized learning.</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="text-center">
+                        <div class="feature-icon mx-auto mb-4" style="background: var(--gradient-secondary);">
+                            <i class="fas fa-user-plus"></i>
+                        </div>
+                        <h4>1. Create Account</h4>
+                        <p class="text-secondary">Sign up for free and set up your learning profile in seconds.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="text-center">
+                        <div class="feature-icon mx-auto mb-4" style="background: var(--gradient-primary);">
+                            <i class="fas fa-play"></i>
+                        </div>
+                        <h4>2. Start Learning</h4>
+                        <p class="text-secondary">Choose a subject and begin answering questions. The system adapts instantly.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="text-center">
+                        <div class="feature-icon mx-auto mb-4" style="background: var(--gradient-success);">
+                            <i class="fas fa-rocket"></i>
+                        </div>
+                        <h4>3. Level Up</h4>
+                        <p class="text-secondary">Watch your skills grow as the difficulty adjusts to your improving performance.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="features-section">
+        <div class="container">
+            <div class="glass-card text-center p-5">
+                <h2 class="mb-3">Ready to Transform Your Learning?</h2>
+                <p class="text-secondary mb-4">Join thousands of students who are already learning smarter with AdaptLearn.</p>
+                <a href="register.html" class="btn btn-glow btn-lg">
+                    <i class="fas fa-rocket me-2"></i>Get Started for Free
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-5 border-top" style="border-color: var(--border-glass) !important;">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6 mb-3 mb-md-0">
+                    <div class="d-flex align-items-center gap-2 mb-2">
+                        <div class="logo-icon" style="width: 35px; height: 35px; font-size: 1rem;">🧠</div>
+                        <span class="gradient-text fw-bold">AdaptLearn</span>
+                    </div>
+                    <p class="text-muted mb-0">Intelligent adaptive learning for everyone.</p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <p class="text-muted mb-0">© 2024 AdaptLearn. Built with ❤️ for learners.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="[cdn.jsdelivr.net](https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js)"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
